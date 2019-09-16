@@ -1,6 +1,5 @@
 #navigation { z-index: 2; }
 
-
 body {
       transition: all 1s ease-in;
       font-family: "Palatino Linotype",  serif;
@@ -11,10 +10,11 @@ body {
 .top
 {
 	width: 100%;
-	height: 150px;
+	height: 100px;
 	margin: 0;
 	background-color: #fff;
 	text-align: center;
+  margin-bottom: 60px;
 }
 #logo
 {
@@ -28,8 +28,15 @@ body {
 	max-height: 100px;
 	max-width: 100%;
 	left:0;
-	margin-top: 50px;
 	margin-left:10%;
+}
+#logo1
+{
+  position: absolute;
+  max-height: 100px;
+  max-width: 100%;
+  right:0;
+  margin-right: 10%;
 }
 .main
 {
@@ -69,11 +76,235 @@ footer
 {
     float:left;
     width: 100%;
-    background-color: red;
+    background-color:#b81212;
     height: 100px;
+    color:white;
 }
-#navigation
+#white_href
 {
+  color:white;
+  text-decoration: none;
+}
+
+#fot
+{
+  font-size: 25px;
+}
+
+#kontakt
+{
+  font-size: 18px;
+}
+
+.kont
+{
+  margin-left: 30%;
+}
+
+
+.tabl{
+ width: 65%;
+ text-align: left;
+}
+
+.gar
+{
+  width: 50%;
+  float: right;
+  padding-right: 14%;
+  padding-left: 2%;
+  margin-bottom: 5%;
+}
+.zayavka
+{
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 100%;
+  float: left;
+}
+.week {
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+  
+}
+#str {
+  text-align: left;
+  width: 50%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border: 1px solid black; 
+  border-top: none; 
+  border-right: none;
+  border-left: none;
+  float:left;
+}
+
+#str1 {
+  text-align: right;
+  width: 50%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border: 1px solid black; 
+  border-top: none; 
+  border-right: none;
+  border-left: none;
+  float:right;
+}
+/* Модальное окно */
+.modal {
+    display: block; 
+    position: relative; 
+    z-index: 3;    
+}
+
+/* Контент модального окна */
+.modal-content {
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; 
+    position: relative;
+}
+.mtitle{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+form input[type="text"]{
+    display: block;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button, form input[type="submit"]{
+    display: block;
+    background: red;
+    color: #fff;
+    border: none;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 20px;
+    
+}
+#hidden{
+   display: none;
+}
+.zagol
+{
+  width: 80%;
+  margin-left: 10%;
+}
+.zagol h1
+{
+  text-align: center;
+  font-size: 70px;
+  padding: 30px;
+}
+#diz
+{
+  width: 100%;
+  height: 100%;
+}
+.img1
+{
+  background-color: blue;
+  margin-left: 10%;
+  width: 80%;
+  height: 400px;
+}
+.box
+{
+  margin-left: 10%;
+  width: 80%;
+}
+.img2
+{
+  float:left;
+  width:20%;
+  height: width;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  background-color: green;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.soder
+{
+  background-color: yellow;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+}
+.podzag
+{
+  padding: 30px;
+  font-size: 40px;
+}
+.napol
+{
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation{
 	object-fit: cover;
     background-color: rgba(0,0,0, 1);
     height: 60px;
@@ -81,7 +312,7 @@ footer
     font-size: 15px;
     line-height: 60px;
     position: absolute;
-    top:150px;
+    top:100px;
     width: 80%;
     left: 10%;
 }
@@ -106,7 +337,6 @@ footer
     #menu li{
 		text-align: center;
         float: left;
-        width: 20%;
         list-style: none;
         
     }
@@ -123,6 +353,44 @@ footer
         color: #f00;
         transition: color 0.5s ease;
     }
+.diz {
+  width: 14%
+}
+.diz2 {
+  width: 13%
+}
+.diz3 {
+  width: 19%
+}
+.diz4 {
+  width: 17%
+}
+.diz5 {
+  width: 19%
+}
+.diz6 {
+  width: 11%
+}
+.diz7 {
+  width: 7%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [class^="swiper-button-"] {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -241,7 +509,7 @@ footer
 }
 
 
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1500px) {
     .swiper-container {
   width: 100%;
   
@@ -263,7 +531,10 @@ footer
     left:0%;    
     margin-left:0%;
 }
-.main
+.gar
+{
+  padding-right:5%;
+}
 
 
 }
