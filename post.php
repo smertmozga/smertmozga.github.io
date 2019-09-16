@@ -30,7 +30,7 @@ $msg_box .= "<span style='color: red;'>$one_error</span><br/>";
 // функция отправки письма
 function send_mail($message){
 // почта, на которую придет письмо
-$mail_to = "minkov.kirill97@gmail.com";
+$mail_to = "emmasheikneht@yandex.ru";
 // тема письма
 $subject = "Письмо с обратной связи";
 
